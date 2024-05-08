@@ -1,0 +1,17 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://44cbe3f2.us1a.app.preset.io/superset/dashboard/9/?native_filters_key=MzrMjHVRHQP-d05oZei6SvjGEQpodhc2wcCB08qcj2fXEkKwtcorMHS6lG0ETC_-
+    description: Executive Dashboard about Airbnb listings and hosts
+      
+
+    depends_on:
+      - ref('full_moon_reviews')
+
+    owner:
+      name: Gautam Govinda
+      email: gautamgovind38@gmail.com
